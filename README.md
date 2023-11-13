@@ -16,57 +16,29 @@
 -  사용자의 첫 사용 시, 초기 테스트를 하여 사용자의 수어 능력을 분석한 후 테스트 결과에 따라 사용자 수준별 맞춤 교육 커리큘럼을 제공합니다. 사용자는 동물, 식생활, 종교 등 주제, 단어, 문장 카테고리 중 학습을 원하는 카테고리를 하나 선택해 수어 공부를 시작하게 됩니다.
 
 -  화면에 주어진 단어를 보고 사용자가 그에 맞는 수어 동작을 하면, 서비스는 수어 동작을 인식하여 정답 결과와 해설 영상을 보여줍니다. 하나의 학습 과정을 완료하면 보상과 함께 더 많은 학습 커리큘럼에 접근할 수 있게 됩니다.
-
-#  
-
 # 3. 빌드 가이드
-
 ## 1. 데이터 수집
-
   'Crawling' 폴더 내
-  
   "Crawling.ipynb" : 영상 데이터 크롤링
-  
   (국립국어원 한국수어사전 영상 크롤링 
   https://sldict.korean.go.kr/front/main/main.do)
   
-  ##
-  
 ## 2. 데이터 전처리
-
   'EDA_hands' 폴더 내
-  
   "National_korea_EDA.ipynb"
-  
   : EDA
-  
-  
-  
   'Augmentation' 폴더 내
-  
   "Augmentation_정리.ipynb" 
-  
   : Data Augmentation
-  
   (참고 : https://github.com/okankop/vidaug/tree/master/vidaug/augmentors
   https://github.com/danielgatis/rembg.git)
   
-  ##
-  
 ## 3. 모델링
-
   'CRNN' 폴더 내
-  
   "CRNN.ipynb"
-  
   : 다양한 CRNN 모델 시도
-  
-#
   
 # 4. 발표자료
 
-[7조_최종발표자료.pdf](https://github.com/Data-campus-2022/team_7/files/9432518/7._.pdf)
+[최종발표자료.pdf](https://github.com/Data-campus-2022/team_7/files/9432518/7._.pdf)
 
-#
-
-# 5. 팀원
